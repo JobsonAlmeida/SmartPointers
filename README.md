@@ -6,7 +6,7 @@ I've created this repository to save the challenge project of the SmartPointers 
 
 Section 17
 Challenge 1
-/***********************************************************************************************************
+
 Create a program that has the following:
 
 1. a function named make that creates and returns a unique_ptr to a vector of shared_ptrs to Test objects. 
@@ -43,14 +43,22 @@ Enter data point [2] : 20
 Enter data point [3] : 30
         Test constructor (30)
 Displaying vector data
+
 =======================
+
 10
+
 20
+
 30
+
 =======================
-        Test destructor (10)
-        Test destructor (20)
-        Test destructor (30)
+
+
+      Test destructor (10)        
+      Test destructor (20)        
+      Test destructor (30)
+
 
 I am providing the function prototypes in the code. 
 However, feel free to modify these as you wish.
